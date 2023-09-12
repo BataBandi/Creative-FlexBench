@@ -1,0 +1,124 @@
+/*All Elements*/
+*{
+    font-family: Roboto;
+    font-size: 12px;
+}
+body{
+    background-color: rgba(247, 247, 247, 0.963);
+}
+
+/*Header Elements*/
+header{
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.title{
+    color: #B18463;
+    font-size: 52px;
+    margin: auto;
+    margin-top: 5px;
+}
+.About{
+    font-size: 16px;
+}
+/*Main-Elements*/
+main{
+    width: 100%;
+    text-align: center;
+}
+.container{
+    position: relative;
+    height: 520px;
+    width: 320px;
+}
+.container > h2, h2{
+    color: white;
+}
+.Last-Name{
+    position: absolute;
+    bottom: 40px;
+    left: 32px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.First-Name{
+    position: absolute;
+    bottom: 75px;
+    left: 32px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.job{
+    position: absolute;
+    bottom: 20px;
+    left: 28px;
+    border: solid 1px #B18463;
+    border-radius: 100px;
+    padding: 4px 12px 4px 12px;
+    color: #B18463;
+}
+/*Images*/
+.image-container{
+    height: 520px;
+    width: 320px
+}
+
+/*Decorations*/
+.underline{
+    width: 104px;
+    height: 4px;
+    background-color: #B18463;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.job > img{
+    margin-right: 5px;
+}
+/*Desktop-width Properties*/
+@media screen and (min-width: 1025px){
+    .section-center{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 'article article article',
+                                'article article article',
+                                'article article article';
+        margin: auto;
+        margin-right: 15px;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    .container{
+        margin: 30px 15px 25px 15px;
+    }
+}
+/*Mobile-width Properties*/
+@media screen and (max-width: 767px){
+    .section-center{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+/*Ipad-width Properties*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .section-center{
+        margin: 20px 20px 20px 20px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 'header header'
+                                'main main'
+                                'main main'
+                                'main main';
+        width: 100%;
+    }
+}
