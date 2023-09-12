@@ -63,9 +63,8 @@ main{
 .image-container{
     height: 520px;
     width: 320px;
-    object-fit: contain;
+    object-fit: cover;
 }
-
 /*Decorations*/
 .underline{
     width: 104px;
@@ -86,13 +85,11 @@ main{
         grid-template-areas: 'article article article',
                                 'article article article',
                                 'article article article';
-        margin: auto;
-        margin-right: 15px;
-        margin-bottom: 40px;
+        margin: 35px auto 40px auto;
         width: 90%;
     }
     .container{
-        margin: 30px 15px 25px 15px;
+        margin: auto auto 55px auto;
     }
 }
 /*Mobile-width Properties*/
@@ -104,13 +101,13 @@ main{
         width: 100%;
     }
     .container{
-        margin: 20px 20px 20px 20px;
+        margin: auto auto 10px auto;
     }
 }
 /*Ipad-width Properties*/
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .section-center{
-        margin: 20px 20px 20px 20px;
+        margin: auto;
         align-items: center;
         display: grid;
         grid-template-columns: auto auto;
@@ -120,5 +117,8 @@ main{
                                 'main main'
                                 'main main';
         width: 100%;
+    }
+    .container{
+        margin: auto auto 20px auto;
     }
 }

@@ -54,7 +54,7 @@ window.addEventListener('load', function(){
 function DisplayImages(team){
     let Info = team.map(function(member){
         return `<article class="container">
-        <a href='#'><img id = ${member.id} class='image-container' src='${member.img}'></a>
+        <a href='#'><img id = ${member.id} class='image-container' src='${member.img}'></img></a>
         <h2 class='Last-Name'>${member.lastName}</h2>
         <h2 class='First-Name'>${member.firstName}</h2>
         <p id = ${member.id} class="job"><img src="./images/Group 153.png">Real Estate Agent</p>
