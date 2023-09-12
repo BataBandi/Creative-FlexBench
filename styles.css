@@ -32,7 +32,6 @@ main{
     position: relative;
     height: 520px;
     width: 320px;
-    overflow: hidden;
 }
 .container > h2, h2{
     color: white;
@@ -63,7 +62,8 @@ main{
 /*Images*/
 .image-container{
     height: 520px;
-    width: 320px
+    width: 320px;
+    overflow: hidden;
 }
 
 /*Decorations*/
