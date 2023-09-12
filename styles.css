@@ -103,8 +103,7 @@ main{
         width: 100%;
     }
     .container{
-        margin: auto;
-        margin-bottom: 20px;
+        margin: 20px 20px 20px 20px;
     }
 }
 /*Ipad-width Properties*/
