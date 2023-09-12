@@ -63,7 +63,7 @@ main{
 .image-container{
     height: 520px;
     width: 320px;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 /*Decorations*/
