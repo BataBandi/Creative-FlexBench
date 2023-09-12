@@ -3,42 +3,42 @@ const team = [
     {
         firstName: 'Andrey',
         lastName: 'Markovicz',
-        img: '../images/Black.jpg',
+        img: './images/Black.jpg',
         job: 'Real estate agent',
         id: 1
     },
     {
         firstName: 'Andrey',
         lastName: 'Driver',
-        img: '../images/Driver.jpg',
+        img: './images/Driver.jpg',
         job: 'Real estate agent',
         id: 2
     },
     {
         firstName: 'Lily',
         lastName: 'Pond',
-        img: '../images/Pond.png',
+        img: './images/Pond.png',
         job: 'Real estate agent',
         id: 3
     },
     {
         firstName: 'Andrey',
         lastName: 'Markovicz',
-        img: '../images/Okazaki.png',
+        img: './images/Okazaki.png',
         job: 'Real estate agent',
         id: 4
     },
     {
         firstName: 'Andrey',
         lastName: 'Okazaki',
-        img: '../images/Grabowsky.png',
+        img: './images/Grabowsky.png',
         job: 'Real estate agent',
         id: 5
     },
     {
         firstName: 'Lily',
         lastName: 'Wei Xin',
-        img: '../images/Wei Xin.png',
+        img: './images/Wei Xin.png',
         job: 'Real estate agent',
         id: 6
     },
